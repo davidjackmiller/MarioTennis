@@ -1,0 +1,109 @@
+﻿David Miller, Matt Mandel, Eric Wasserman
+Mario Tennis 50
+December 6th, 2015
+ 
+Mario Tennis 50: Design
+ 
+Overview
+Mario Tennis 50 is a large project with several components. The program itself is spread among several different files and formats which are ultimately compiled into a single application. This project was made with Apple and XCode’s SpriteKit library which provides several functions and classes useful for creating 2D games.
+
+
+Particularly Useful SpriteKit Features
+The class SKSpriteNode is a class for objects that become graphics on the screen. They can then be manipulated graphically and physically with either SpriteKit’s or your own physics engine and even given a physics body.
+
+
+The physicsBody attribute of SKSpriteNode’s was also helpful as it allowed us to create hitboxes to detect when certain objects were in contact, specifically the ball and the player’s racket.
+
+
+The runAction command ran actions on these SKSpriteNode’s, allowing us to move, rotate, color tint them, and more.
+
+
+AppDelegate.swift
+The first file executed when the application is launched. It’s simply meant to tell the application where to start, which in our case is at the main menu screen.
+
+
+MainMenuScene.swift and MainMenuScene.sks
+MainMenuScene.sks is a SpriteKit scene that provides an empty template for the MainMenuScene.swift to act upon. All this scene does is create a few SKSpriteNodes for static images and render them in position on screen. Then, when the space key is pressed, you move into the character select screen, CharSelect.
+
+
+CharSelect.swift and CharSelect.sks
+Just like in MainMenuScene, most of CharSelect.swift’s job is to create SKSpriteNodes and render them in place: the character icons, ball, stage icons, textbox, toad, curtain. Variable were of course created then to keep track of who/what was selected for each option and one to keep track of which option the user was currently selecting. 
+
+
+When the arrow keys were pressed, several if statements would cycle through the options. The up and down key cycled through the options, i.e., first player, second player, ball, stage, and start. The left and right cycled through those options’ different choices, e.g., mario, luigi, and so on.
+
+
+As these user inputs changed the variables that kept track of the user’s preferences, the arrows pointed to the respective characters, the ball sprite and text changed, and the selected stage highlights. The textbox on the bottom would also change its sprite according to which option was being modified, to help prompt the user. 
+
+
+If the spacebar is pressed while on the start option, the game will attempt to show the controls screen as a SKSpriteNode rendered in front of everything else. However, if player 1 and 2 selected the same character, the textbox’s sprite would change to inform the user to pick two different players. 
+
+
+If the space bar was then pressed again, it’d transition to the GameScene. In doing so, it’d also create a few variables within GameScene and stored in them the user’s preferences.
+
+
+GameScene.swift and GameScene.sks
+GameScene handles essentially all of the gameplay and is the meat of the project. It is split into a few different parts:
+* Initial variable and function declarations
+* Object creations and renderings when the scene is arrived to
+* A function that keeps track of which buttons of interest are pressed when one is pressed
+* Two functions to keep track of when the ball is in contact with a racket
+* An update loop which is constantly running as the engine of the game
+
+
+The most notable of the initially declared variables are map, tick, and prediction. Map is an associative array (String to Bool) that kept track of which keys are currently pressed. For example, when the left key is being pressed map[“left”] evaluates to true. This is of course used to trigger events which are caused by user input.
+
+
+Tick is an int which increments by one at every iteration of the update loop. Though it doesn’t really matter what frame the game is on, it’s useful for animating. For example, every character has two sprites for walking left. Thus, the animateLeft function changes the sprite to the first sprite when tick mod 12 is less 6 and to the second sprite otherwise, effectively animating the sprite.
+
+
+Prediction is a calculation made of where the ball’s y position will exceed 600. This will let the opponent AI know where to intercept the ball to hit it back. 
+
+
+Two new classes are then made which inherit from SKSpriteNode. BallSpriteNode adds x and y velocity attributes and several methods that dictate the ball’s behavior between serves and during special shots.
+
+
+CharacterSpriteNode does the same and adds x and y velocity attributes as well as ones for how long the player’s been charging, what character the user is playing as, their score, and so on. This class also has methods to dictate movement, animation, and AI such as moving to the center and to intercept the ball. 
+
+
+Every sprite node is then positioned and rendered with the court in back, the characters in front, and the ball between them. In the corners, the characters’ icons are also displayed with the score next to them.
+
+
+Two functions are then automated to execute whenever a button is pressed or released. A series of if statements then update the associative array map according to which buttons were pressed.
+
+
+Two more functions are automated to execute when a ball comes in and out of contact with a racket. These regulate a bool which checks if the ball is in contact at any moment.
+
+
+Then comes the update loop. Some functions execute in every iteration. Tick increments, the objects move by their velocity and are slowed down by friction, and so on. Several if statements dictate what occurs in the rest of the loop. 
+
+
+When user inputs are given, the player velocity may change and the player may swing and hit the ball back if all the criteria are met. The opponent AI is also called here as well as graphical effects such as rotating the ball and highlighting players with a special shot available. 
+
+
+When the ball is hit by the character, their special meter will increase by the amount of time they charge their shot. Once the special meter is full, the character will start glowing and will become able to activate some if statements that make each player use their own special shot. Often these work by disabling opponent AI, changing the ball’s speed and sprite, and adding particle effects.
+
+
+If a ball passed over the net and made it to the top or bottom of the screen, whoever hit it will get a point. If the ball never passed the net, it’ll be out and the opponent will not hit it back since they’ll gain a point when the ball goes out completely. The player can receive a point in the same way but can make the mistake of hitting it back.
+
+
+Some if statements prevent the player from walking off court by setting their velocity in the opposite direction when they try to leave.
+
+
+If, when someone scores, they won their third game, the game will transition to the results screen. It will transition to the victory screen if the player won and the loser screen if they player lost. In addition, if it’s moving to the victory screen, it’ll pass in the character of the victory into the next scene too.
+
+
+Victory.swift and Victory.sks
+This’ll simply make and render nodes for the graphics on screen. The character portrait in the middle should change to be whoever character won the game. Four different confetti effects are also rendered: red, blue, green, and yellow. A function then waits for the user to press the space button, after which the user will be sent back to the CharSelect scene to play again.
+
+
+Loser.swift and Loser.sks
+Just like Victory, this’ll just render some nodes on screen to let the player know they lost. This one isn’t customised depending on what character won. Again, a function is waiting for the user to press the space button to play again.
+
+
+SwiftyTimer.swift
+This contains an easy to use timer function that is automatically imported into the other files. It was created by Radosław Pietruszewski and published on GitHub for anyone to use, as long as they gave credit. We used the function in GameScene to help with animations.
+
+
+RedConfetti.sks, BlueConfetti.sks, GreenConfetti.sks, YellowConfetti.sks, Hearts.sks and Farts.sks
+These are all custom particle effects made in XCode’s particle effect editor. The first four are used on the victory screen and the last two are used in Peach and Wario’s special shots, respectively.

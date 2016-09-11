@@ -1,0 +1,30 @@
+David Miller, Matt Mandel, Eric Wasserman
+Mario 50 Tennis
+December 6th, 2015
+ 
+Mario 50 Tennis: Documentation
+ 
+Launching and Configuring the Game
+When you unzip the .zip file you received, you should see a folder, open it. Here you will find a .app file that you can launch with a Mac computer. Just double-click the file to play the game. No need to configure anything as all options can be set in the game itself.
+
+
+Setting Up a Game
+When the game starts, you’ll be at the title screen. Press space to continue. Now you’ll be on the character select screen. Use the up and down arrow keys to cycle through the different option fields and the right and left arrow keys to select different options within those. You can pick the first player’s character, second player’s character, ball, and court. You have the following choices:
+* Characters: Mario, Luigi, Princess Peach, Yoshi, Wario, and Waluigi
+* Ball: Tennis Ball, Soccer Ball, Beach Ball, Basket Ball, and Poke Ball
+* Courts: Hard, Clay, Grass, Composition, Star, Peach’s Castle, Yoshi’s Farm, DK’s Jungle, Wario’s Warehouse, and a Random Court
+Once you’ve decided, press the up and down arrow keys until the text box on the bottom prompts you to press space to start. Press it, and you’ll now be on the controls screen.
+
+
+Controls
+This screen will inform you of the controls of how to play the game. Use the arrow keys to move your character and space to swing and serve. You can charge a swing by holding down space and swing by releasing the spacebar. The longer you charge, the faster the ball will go. If the volley has lasted particularly long, your character will start glowing, meaning you’re able to use a special shot. Press the v key to use your special shot. Each character’s is different, but they’re all a great way to score on your opponent.
+ 
+Game Play
+This game is just like a game of tennis, so the rules will probably be familiar. You want to hit the ball back and forth until your opponent misses it. However, if you hit the ball out of bounds, it’ll be considered the opponent’s point. For a ball to be in bounds, it must cross the net after you hit it and before it reaches your opponent. The same rules apply to your opponent.
+
+
+Scoring and Winning
+Scoring is identical to in tennis. When someone scores a point, their score increases from 0 to 15 or from 15 to 30 or from 30 to 40. If a player had 40 points when he scored, he wins the game (not match), and everyone’s points are reset. Serving will also rotate each game, alternating between the player and opponent. However, if both players had 40 points, there will be a deuce. This means a player must score two points in a row to take the game. Advantage indicates a player has 40 points and scored the last play, potentially one point away from winning the game. The first to win 3 games will win the match. (We are not using sets like in regular tennis since the game would become unnecessarily long.)
+ 
+Game End
+After three games have been won by one character, the results screen appears. If you won, you’ll find confetti and your character’s profile. If you lost, you’ll see a sad pug. Why’d you make the dog so sad? To play again, press the spacebar and you will be returned to the character, ball, and court selection screen. Enjoy!

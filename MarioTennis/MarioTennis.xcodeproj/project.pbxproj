@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		635B5EC71C0CCDE000BE661A /* Victory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635B5EC61C0CCDE000BE661A /* Victory.swift */; };
+		635B5EC91C0CCDF000BE661A /* Victory.sks in Resources */ = {isa = PBXBuildFile; fileRef = 635B5EC81C0CCDF000BE661A /* Victory.sks */; };
+		635B5ECD1C0D34D600BE661A /* Confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 635B5ECB1C0D34D600BE661A /* Confetti.png */; };
+		635B5ECF1C0D352900BE661A /* RedConfetti.sks in Resources */ = {isa = PBXBuildFile; fileRef = 635B5ECE1C0D352900BE661A /* RedConfetti.sks */; };
+		635B5ED11C0D353600BE661A /* BlueConfetti.sks in Resources */ = {isa = PBXBuildFile; fileRef = 635B5ED01C0D353600BE661A /* BlueConfetti.sks */; };
+		635B5ED31C0D354000BE661A /* YellowConfetti.sks in Resources */ = {isa = PBXBuildFile; fileRef = 635B5ED21C0D354000BE661A /* YellowConfetti.sks */; };
+		635B5ED51C0D354B00BE661A /* GreenConfetti.sks in Resources */ = {isa = PBXBuildFile; fileRef = 635B5ED41C0D354B00BE661A /* GreenConfetti.sks */; };
+		637BE0C31C11B18900BBC469 /* Hearts.sks in Resources */ = {isa = PBXBuildFile; fileRef = 637BE0C11C11B18900BBC469 /* Hearts.sks */; };
+		637BE0C61C11B19600BBC469 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 637BE0C51C11B19600BBC469 /* heart.png */; };
+		637BE0C91C1376D100BBC469 /* Farts.sks in Resources */ = {isa = PBXBuildFile; fileRef = 637BE0C71C1376D100BBC469 /* Farts.sks */; };
+		637BE0CA1C1376D100BBC469 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 637BE0C81C1376D100BBC469 /* spark.png */; };
+		637BE0D21C13965800BBC469 /* Loser.sks in Resources */ = {isa = PBXBuildFile; fileRef = 637BE0D11C13965800BBC469 /* Loser.sks */; };
+		637BE0D41C1396BB00BBC469 /* Loser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637BE0D31C1396BB00BBC469 /* Loser.swift */; };
+		637BE0D81C13EF1600BBC469 /* Rainbow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 637BE0D71C13EF1600BBC469 /* Rainbow.sks */; };
+		6393795B1C04E4C100E3AC6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6393795A1C04E4C100E3AC6F /* AppDelegate.swift */; };
+		6393795D1C04E4C100E3AC6F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6393795C1C04E4C100E3AC6F /* GameScene.swift */; };
+		6393795F1C04E4C100E3AC6F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6393795E1C04E4C100E3AC6F /* GameScene.sks */; };
+		639379611C04E4C100E3AC6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639379601C04E4C100E3AC6F /* Images.xcassets */; };
+		639379641C04E4C100E3AC6F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 639379621C04E4C100E3AC6F /* MainMenu.xib */; };
+		639379701C04E4C100E3AC6F /* MarioTennisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6393796F1C04E4C100E3AC6F /* MarioTennisTests.swift */; };
+		6393797C1C04E50100E3AC6F /* SwiftyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6393797B1C04E50100E3AC6F /* SwiftyTimer.swift */; };
+		63FE5C461C093CD90052E790 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FE5C451C093CD90052E790 /* MainMenuScene.swift */; };
+		63FE5C481C095DCF0052E790 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 63FE5C471C095DCF0052E790 /* MainMenuScene.sks */; };
+		63FE5C4A1C0962190052E790 /* CharSelect.sks in Resources */ = {isa = PBXBuildFile; fileRef = 63FE5C491C0962190052E790 /* CharSelect.sks */; };
+		63FE5C4C1C0962E00052E790 /* CharSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FE5C4B1C0962E00052E790 /* CharSelect.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6393796A1C04E4C100E3AC6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6393794D1C04E4C100E3AC6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639379541C04E4C100E3AC6F;
+			remoteInfo = MarioTennis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		635B5EC61C0CCDE000BE661A /* Victory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Victory.swift; sourceTree = "<group>"; };
+		635B5EC81C0CCDF000BE661A /* Victory.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Victory.sks; sourceTree = "<group>"; };
+		635B5ECB1C0D34D600BE661A /* Confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Confetti.png; sourceTree = "<group>"; };
+		635B5ECE1C0D352900BE661A /* RedConfetti.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RedConfetti.sks; sourceTree = "<group>"; };
+		635B5ED01C0D353600BE661A /* BlueConfetti.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BlueConfetti.sks; sourceTree = "<group>"; };
+		635B5ED21C0D354000BE661A /* YellowConfetti.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = YellowConfetti.sks; sourceTree = "<group>"; };
+		635B5ED41C0D354B00BE661A /* GreenConfetti.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GreenConfetti.sks; sourceTree = "<group>"; };
+		637BE0C11C11B18900BBC469 /* Hearts.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Hearts.sks; sourceTree = "<group>"; };
+		637BE0C51C11B19600BBC469 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		637BE0C71C1376D100BBC469 /* Farts.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Farts.sks; sourceTree = "<group>"; };
+		637BE0C81C1376D100BBC469 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		637BE0D11C13965800BBC469 /* Loser.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Loser.sks; sourceTree = "<group>"; };
+		637BE0D31C1396BB00BBC469 /* Loser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loser.swift; sourceTree = "<group>"; };
+		637BE0D71C13EF1600BBC469 /* Rainbow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rainbow.sks; sourceTree = "<group>"; };
+		639379551C04E4C100E3AC6F /* MarioTennis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioTennis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		639379591C04E4C100E3AC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6393795A1C04E4C100E3AC6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6393795C1C04E4C100E3AC6F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6393795E1C04E4C100E3AC6F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		639379601C04E4C100E3AC6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		639379631C04E4C100E3AC6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		639379691C04E4C100E3AC6F /* MarioTennisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioTennisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6393796E1C04E4C100E3AC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6393796F1C04E4C100E3AC6F /* MarioTennisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioTennisTests.swift; sourceTree = "<group>"; };
+		6393797B1C04E50100E3AC6F /* SwiftyTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyTimer.swift; sourceTree = "<group>"; };
+		63FE5C451C093CD90052E790 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		63FE5C471C095DCF0052E790 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		63FE5C491C0962190052E790 /* CharSelect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CharSelect.sks; sourceTree = "<group>"; };
+		63FE5C4B1C0962E00052E790 /* CharSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharSelect.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639379521C04E4C100E3AC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639379661C04E4C100E3AC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6393794C1C04E4C100E3AC6F = {
+			isa = PBXGroup;
+			children = (
+				639379571C04E4C100E3AC6F /* MarioTennis */,
+				6393796C1C04E4C100E3AC6F /* MarioTennisTests */,
+				639379561C04E4C100E3AC6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		639379561C04E4C100E3AC6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639379551C04E4C100E3AC6F /* MarioTennis.app */,
+				639379691C04E4C100E3AC6F /* MarioTennisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639379571C04E4C100E3AC6F /* MarioTennis */ = {
+			isa = PBXGroup;
+			children = (
+				6393795A1C04E4C100E3AC6F /* AppDelegate.swift */,
+				63FE5C451C093CD90052E790 /* MainMenuScene.swift */,
+				63FE5C471C095DCF0052E790 /* MainMenuScene.sks */,
+				63FE5C4B1C0962E00052E790 /* CharSelect.swift */,
+				63FE5C491C0962190052E790 /* CharSelect.sks */,
+				6393795C1C04E4C100E3AC6F /* GameScene.swift */,
+				6393795E1C04E4C100E3AC6F /* GameScene.sks */,
+				635B5EC61C0CCDE000BE661A /* Victory.swift */,
+				635B5EC81C0CCDF000BE661A /* Victory.sks */,
+				637BE0D31C1396BB00BBC469 /* Loser.swift */,
+				637BE0D11C13965800BBC469 /* Loser.sks */,
+				635B5ECE1C0D352900BE661A /* RedConfetti.sks */,
+				635B5ED01C0D353600BE661A /* BlueConfetti.sks */,
+				635B5ED21C0D354000BE661A /* YellowConfetti.sks */,
+				635B5ED41C0D354B00BE661A /* GreenConfetti.sks */,
+				635B5ECB1C0D34D600BE661A /* Confetti.png */,
+				637BE0C11C11B18900BBC469 /* Hearts.sks */,
+				637BE0C51C11B19600BBC469 /* heart.png */,
+				637BE0C71C1376D100BBC469 /* Farts.sks */,
+				637BE0D71C13EF1600BBC469 /* Rainbow.sks */,
+				637BE0C81C1376D100BBC469 /* spark.png */,
+				6393797B1C04E50100E3AC6F /* SwiftyTimer.swift */,
+				639379601C04E4C100E3AC6F /* Images.xcassets */,
+				639379621C04E4C100E3AC6F /* MainMenu.xib */,
+				639379581C04E4C100E3AC6F /* Supporting Files */,
+			);
+			path = MarioTennis;
+			sourceTree = "<group>";
+		};
+		639379581C04E4C100E3AC6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				639379591C04E4C100E3AC6F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6393796C1C04E4C100E3AC6F /* MarioTennisTests */ = {
+			isa = PBXGroup;
+			children = (
+				6393796F1C04E4C100E3AC6F /* MarioTennisTests.swift */,
+				6393796D1C04E4C100E3AC6F /* Supporting Files */,
+			);
+			path = MarioTennisTests;
+			sourceTree = "<group>";
+		};
+		6393796D1C04E4C100E3AC6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6393796E1C04E4C100E3AC6F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639379541C04E4C100E3AC6F /* MarioTennis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639379731C04E4C100E3AC6F /* Build configuration list for PBXNativeTarget "MarioTennis" */;
+			buildPhases = (
+				639379511C04E4C100E3AC6F /* Sources */,
+				639379521C04E4C100E3AC6F /* Frameworks */,
+				639379531C04E4C100E3AC6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarioTennis;
+			productName = MarioTennis;
+			productReference = 639379551C04E4C100E3AC6F /* MarioTennis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		639379681C04E4C100E3AC6F /* MarioTennisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639379761C04E4C100E3AC6F /* Build configuration list for PBXNativeTarget "MarioTennisTests" */;
+			buildPhases = (
+				639379651C04E4C100E3AC6F /* Sources */,
+				639379661C04E4C100E3AC6F /* Frameworks */,
+				639379671C04E4C100E3AC6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6393796B1C04E4C100E3AC6F /* PBXTargetDependency */,
+			);
+			name = MarioTennisTests;
+			productName = MarioTennisTests;
+			productReference = 639379691C04E4C100E3AC6F /* MarioTennisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6393794D1C04E4C100E3AC6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "David Miller";
+				TargetAttributes = {
+					639379541C04E4C100E3AC6F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					639379681C04E4C100E3AC6F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 639379541C04E4C100E3AC6F;
+					};
+				};
+			};
+			buildConfigurationList = 639379501C04E4C100E3AC6F /* Build configuration list for PBXProject "MarioTennis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6393794C1C04E4C100E3AC6F;
+			productRefGroup = 639379561C04E4C100E3AC6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639379541C04E4C100E3AC6F /* MarioTennis */,
+				639379681C04E4C100E3AC6F /* MarioTennisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639379531C04E4C100E3AC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635B5ED51C0D354B00BE661A /* GreenConfetti.sks in Resources */,
+				63FE5C4A1C0962190052E790 /* CharSelect.sks in Resources */,
+				637BE0C91C1376D100BBC469 /* Farts.sks in Resources */,
+				635B5ED31C0D354000BE661A /* YellowConfetti.sks in Resources */,
+				637BE0D81C13EF1600BBC469 /* Rainbow.sks in Resources */,
+				635B5ED11C0D353600BE661A /* BlueConfetti.sks in Resources */,
+				637BE0C61C11B19600BBC469 /* heart.png in Resources */,
+				63FE5C481C095DCF0052E790 /* MainMenuScene.sks in Resources */,
+				635B5EC91C0CCDF000BE661A /* Victory.sks in Resources */,
+				6393795F1C04E4C100E3AC6F /* GameScene.sks in Resources */,
+				635B5ECD1C0D34D600BE661A /* Confetti.png in Resources */,
+				637BE0CA1C1376D100BBC469 /* spark.png in Resources */,
+				637BE0D21C13965800BBC469 /* Loser.sks in Resources */,
+				637BE0C31C11B18900BBC469 /* Hearts.sks in Resources */,
+				635B5ECF1C0D352900BE661A /* RedConfetti.sks in Resources */,
+				639379611C04E4C100E3AC6F /* Images.xcassets in Resources */,
+				639379641C04E4C100E3AC6F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639379671C04E4C100E3AC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639379511C04E4C100E3AC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6393797C1C04E50100E3AC6F /* SwiftyTimer.swift in Sources */,
+				6393795D1C04E4C100E3AC6F /* GameScene.swift in Sources */,
+				63FE5C461C093CD90052E790 /* MainMenuScene.swift in Sources */,
+				63FE5C4C1C0962E00052E790 /* CharSelect.swift in Sources */,
+				635B5EC71C0CCDE000BE661A /* Victory.swift in Sources */,
+				6393795B1C04E4C100E3AC6F /* AppDelegate.swift in Sources */,
+				637BE0D41C1396BB00BBC469 /* Loser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639379651C04E4C100E3AC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639379701C04E4C100E3AC6F /* MarioTennisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6393796B1C04E4C100E3AC6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639379541C04E4C100E3AC6F /* MarioTennis */;
+			targetProxy = 6393796A1C04E4C100E3AC6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		639379621C04E4C100E3AC6F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639379631C04E4C100E3AC6F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		639379711C04E4C100E3AC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		639379721C04E4C100E3AC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		639379741C04E4C100E3AC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MarioTennis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "CS50.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		639379751C04E4C100E3AC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MarioTennis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "CS50.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		639379771C04E4C100E3AC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MarioTennisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "CS50.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioTennis.app/Contents/MacOS/MarioTennis";
+			};
+			name = Debug;
+		};
+		639379781C04E4C100E3AC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MarioTennisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "CS50.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioTennis.app/Contents/MacOS/MarioTennis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639379501C04E4C100E3AC6F /* Build configuration list for PBXProject "MarioTennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639379711C04E4C100E3AC6F /* Debug */,
+				639379721C04E4C100E3AC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639379731C04E4C100E3AC6F /* Build configuration list for PBXNativeTarget "MarioTennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639379741C04E4C100E3AC6F /* Debug */,
+				639379751C04E4C100E3AC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639379761C04E4C100E3AC6F /* Build configuration list for PBXNativeTarget "MarioTennisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639379771C04E4C100E3AC6F /* Debug */,
+				639379781C04E4C100E3AC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6393794D1C04E4C100E3AC6F /* Project object */;
+}
